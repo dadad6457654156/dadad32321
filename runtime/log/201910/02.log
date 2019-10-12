@@ -1,0 +1,133 @@
+---------------------------------------------------------------
+[ 2019-10-02T00:13:47+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22bizhong%22%3A%220%22%2C%22createtime%22%3A%222019-09-03+00%3A00%3A00+-+2019-10-02+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569946177041
+[ error ] [0]语法解析错误: syntax error, unexpected ')'
+---------------------------------------------------------------
+[ 2019-10-02T00:13:50+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22bizhong%22%3A%220%22%2C%22createtime%22%3A%222019-09-03+00%3A00%3A00+-+2019-10-02+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569946177042
+[ error ] [0]语法解析错误: syntax error, unexpected ')'
+---------------------------------------------------------------
+[ 2019-10-02T00:43:48+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=50&filter=%7B%22bizhong%22%3A%220%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569946799039
+[ error ] [8]未定义变量: sum
+---------------------------------------------------------------
+[ 2019-10-02T00:43:51+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=50&filter=%7B%22bizhong%22%3A%220%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569946799040
+[ error ] [8]未定义变量: sum
+---------------------------------------------------------------
+[ 2019-10-02T00:44:15+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=50&filter=%7B%22bizhong%22%3A%220%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569946799041
+[ error ] [8]未定义变量: sum
+---------------------------------------------------------------
+[ 2019-10-02T00:44:21+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=50&filter=%7B%22bizhong%22%3A%220%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569946799042
+[ error ] [8]未定义变量: sum
+---------------------------------------------------------------
+[ 2019-10-02T00:44:42+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=50&filter=%7B%22bizhong%22%3A%220%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569946799043
+[ error ] [8]未定义变量: sum
+---------------------------------------------------------------
+[ 2019-10-02T00:45:00+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=50&filter=%7B%22bizhong%22%3A%220%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569946799044
+[运行时间：1.371902s] [吞吐率：0.73req/s] [内存消耗：1,052.33kb] [文件加载：156]
+[ error ] [8]未定义变量: sum[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:177]
+---------------------------------------------------------------
+[ 2019-10-02T00:45:29+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=50&filter=%7B%22bizhong%22%3A%220%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569946799045
+[运行时间：1.372494s] [吞吐率：0.73req/s] [内存消耗：1,051.14kb] [文件加载：156]
+[ error ] [8]未定义变量: sum[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:177]
+---------------------------------------------------------------
+[ 2019-10-02T00:45:37+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=50&filter=%7B%22bizhong%22%3A%220%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569946799046
+[运行时间：1.312118s] [吞吐率：0.76req/s] [内存消耗：1,051.14kb] [文件加载：156]
+[ error ] [8]未定义变量: sum[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:177]
+---------------------------------------------------------------
+[ 2019-10-02T00:46:01+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=50&filter=%7B%22bizhong%22%3A%220%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569946799047
+[运行时间：1.503981s] [吞吐率：0.66req/s] [内存消耗：1,052.25kb] [文件加载：156]
+[ error ] [8]未定义数组索引: leijizhichutuihui[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:178]
+---------------------------------------------------------------
+[ 2019-10-02T00:46:06+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=50&filter=%7B%22bizhong%22%3A%220%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569946799048
+[运行时间：1.380748s] [吞吐率：0.72req/s] [内存消耗：1,051.14kb] [文件加载：156]
+[ error ] [8]未定义数组索引: leijizhichutuihui[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:178]
+---------------------------------------------------------------
+[ 2019-10-02T01:53:04+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772590
+[ error ] [8]未定义数组索引: time
+---------------------------------------------------------------
+[ 2019-10-02T01:53:09+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772591
+[ error ] [8]未定义数组索引: time
+---------------------------------------------------------------
+[ 2019-10-02T01:53:41+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772592
+[ error ] [8]未定义数组索引: time
+---------------------------------------------------------------
+[ 2019-10-02T01:53:43+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772593
+[ error ] [8]未定义数组索引: time
+---------------------------------------------------------------
+[ 2019-10-02T01:54:19+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772594
+[运行时间：0.035071s] [吞吐率：28.51req/s] [内存消耗：941.98kb] [文件加载：153]
+[ error ] [8]未定义数组索引: time[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:278]
+---------------------------------------------------------------
+[ 2019-10-02T01:56:46+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772595
+[运行时间：0.037168s] [吞吐率：26.90req/s] [内存消耗：942.66kb] [文件加载：153]
+[ error ] [8]未定义变量: v[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:56:48+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772596
+[运行时间：0.045020s] [吞吐率：22.21req/s] [内存消耗：941.55kb] [文件加载：153]
+[ error ] [8]未定义变量: v[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:57:13+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772597
+[运行时间：0.030753s] [吞吐率：32.52req/s] [内存消耗：941.55kb] [文件加载：153]
+[ error ] [8]未定义变量: v[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:57:16+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772598
+[运行时间：0.030552s] [吞吐率：32.73req/s] [内存消耗：941.55kb] [文件加载：153]
+[ error ] [8]未定义变量: v[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:57:18+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772599
+[运行时间：0.038128s] [吞吐率：26.23req/s] [内存消耗：941.55kb] [文件加载：153]
+[ error ] [8]未定义变量: v[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:57:21+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772600
+[运行时间：0.038694s] [吞吐率：25.84req/s] [内存消耗：941.55kb] [文件加载：153]
+[ error ] [8]未定义变量: v[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:57:24+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772601
+[运行时间：0.027732s] [吞吐率：36.06req/s] [内存消耗：941.55kb] [文件加载：153]
+[ error ] [8]未定义变量: v[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:57:27+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772602
+[运行时间：0.036999s] [吞吐率：27.03req/s] [内存消耗：941.55kb] [文件加载：153]
+[ error ] [8]未定义变量: v[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:57:30+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772603
+[运行时间：0.027852s] [吞吐率：35.90req/s] [内存消耗：941.55kb] [文件加载：153]
+[ error ] [8]未定义变量: v[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:57:32+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772604
+[运行时间：0.035560s] [吞吐率：28.12req/s] [内存消耗：941.55kb] [文件加载：153]
+[ error ] [8]未定义变量: v[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:57:36+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772605
+[运行时间：0.111599s] [吞吐率：8.96req/s] [内存消耗：941.55kb] [文件加载：153]
+[ error ] [8]未定义变量: v[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:57:38+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772606
+[运行时间：0.034329s] [吞吐率：29.13req/s] [内存消耗：941.55kb] [文件加载：153]
+[ error ] [8]未定义变量: v[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:57:41+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772607
+[运行时间：0.032191s] [吞吐率：31.06req/s] [内存消耗：941.55kb] [文件加载：153]
+[ error ] [8]未定义变量: v[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:57:44+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772608
+[运行时间：0.036177s] [吞吐率：27.64req/s] [内存消耗：941.55kb] [文件加载：153]
+[ error ] [8]未定义变量: v[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:57:47+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772609
+[运行时间：0.031952s] [吞吐率：31.30req/s] [内存消耗：1,035.87kb] [文件加载：156]
+[ error ] [8]未定义数组下标: 4[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:58:14+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772610
+[运行时间：0.031261s] [吞吐率：31.99req/s] [内存消耗：1,034.76kb] [文件加载：156]
+[ error ] [8]未定义数组下标: 4[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T01:58:18+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=30&filter=%7B%22bizhong%22%3A%220%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-09-30+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772611
+[运行时间：0.036264s] [吞吐率：27.58req/s] [内存消耗：1,034.76kb] [文件加载：156]
+[ error ] [8]未定义数组下标: 4[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:327]
+---------------------------------------------------------------
+[ 2019-10-02T02:16:18+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=31&filter=%7B%22bizhong%22%3A%221%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-10-01+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772643
+[运行时间：0.028808s] [吞吐率：34.71req/s] [内存消耗：362.63kb] [文件加载：125]
+[ error ] [0]语法解析错误: syntax error, unexpected 'public' (T_PUBLIC)[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:234]
+---------------------------------------------------------------
+[ 2019-10-02T02:16:22+08:00 ] 171.253.47.229 GET 104.128.85.180:8968/admin/realtimecheckmeitian/index?addtabs=1&search=&sort=id&order=desc&offset=0&limit=31&filter=%7B%22bizhong%22%3A%221%22%2C%22chaxunqianjieyu%22%3A%22512009.72%22%2C%22createtime%22%3A%222019-09-01+00%3A00%3A00+-+2019-10-01+23%3A59%3A59%22%7D&op=%7B%22bizhong%22%3A%22%3D%22%2C%22chaxunqianjieyu%22%3A%22%3D%22%2C%22createtime%22%3A%22RANGE%22%7D&_=1569950772644
+[运行时间：0.046692s] [吞吐率：21.42req/s] [内存消耗：362.63kb] [文件加载：125]
+[ error ] [0]语法解析错误: syntax error, unexpected 'public' (T_PUBLIC)[/www/wwwroot/baidu.com/application/admin/controller/Realtimecheckmeitian.php:234]

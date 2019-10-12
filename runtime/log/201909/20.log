@@ -1,0 +1,10 @@
+---------------------------------------------------------------
+[ 2019-09-20T18:28:02+08:00 ] 171.253.135.215 GET 104.128.85.180:8968/admin/sjtjbiao?addtabs=1
+[ error ] [0]模板文件不存在:/www/wwwroot/baidu.com/public/../application/admin/view/sjtjbiao/index.html
+---------------------------------------------------------------
+[ 2019-09-20T18:28:30+08:00 ] 171.253.135.215 GET 104.128.85.180:8968/admin/sjtjbiao?addtabs=1
+[ error ] [0]模板文件不存在:/www/wwwroot/baidu.com/public/../application/admin/view/sjtjbiao/index.html
+---------------------------------------------------------------
+[ 2019-09-20T18:28:45+08:00 ] 171.253.135.215 GET 104.128.85.180:8968/admin/sjtjbiao?addtabs=1
+[运行时间：0.113397s] [吞吐率：8.82req/s] [内存消耗：874.84kb] [文件加载：144]
+[ error ] [0]模板文件不存在:/www/wwwroot/baidu.com/public/../application/admin/view/sjtjbiao/index.html[/www/wwwroot/baidu.com/thinkphp/library/think/view/driver/Think.php:82]

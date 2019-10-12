@@ -1,0 +1,18 @@
+[ 2019-08-18T16:33:23+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002421s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-08-18T16:33:23+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'zccategory' [ RunTime:0.001519s ]
+[ 2019-08-18T16:33:23+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_zccategory' [ RunTime:0.001583s ]
+[ 2019-08-18T16:33:23+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_zccategory' ORDER BY ORDINAL_POSITION [ RunTime:0.013063s ]
+[ 2019-08-18T16:33:24+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002469s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-08-18T16:33:24+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.013366s ]
+[ 2019-08-18T16:33:24+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'zccategory' LIMIT 1 [ RunTime:0.000527s ]
+[ 2019-08-18T16:33:24+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'zccategory' , '支出类型管理' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1566117204 , 1566117204) [ RunTime:0.001973s ]
+[ 2019-08-18T16:33:24+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'zccategory/index' LIMIT 1 [ RunTime:0.000468s ]
+[ 2019-08-18T16:33:24+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'zccategory/add' LIMIT 1 [ RunTime:0.000367s ]
+[ 2019-08-18T16:33:24+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'zccategory/edit' LIMIT 1 [ RunTime:0.000348s ]
+[ 2019-08-18T16:33:24+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'zccategory/del' LIMIT 1 [ RunTime:0.000366s ]
+[ 2019-08-18T16:33:24+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'zccategory/multi' LIMIT 1 [ RunTime:0.000331s ]
+[ 2019-08-18T16:33:24+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 141 , 'zccategory/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1566117204 , 1566117204) [ RunTime:0.000552s ]
+[ 2019-08-18T16:33:24+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 141 , 'zccategory/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1566117204 , 1566117204) [ RunTime:0.000335s ]
+[ 2019-08-18T16:33:24+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 141 , 'zccategory/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1566117204 , 1566117204) [ RunTime:0.000485s ]
+[ 2019-08-18T16:33:24+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 141 , 'zccategory/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1566117204 , 1566117204) [ RunTime:0.000388s ]
+[ 2019-08-18T16:33:24+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 141 , 'zccategory/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1566117204 , 1566117204) [ RunTime:0.000349s ]

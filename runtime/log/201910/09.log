@@ -1,0 +1,100 @@
+---------------------------------------------------------------
+[ 2019-10-09T15:32:49+08:00 ] 127.0.0.1 GET caiwu.com/admin/bankcardmanagement/add?dialog=1
+[ error ] [8]未定义变量: PhonenumberstatusList
+---------------------------------------------------------------
+[ 2019-10-09T15:33:07+08:00 ] 127.0.0.1 GET caiwu.com/admin/bankcardmanagement/add?dialog=1
+[ error ] [8]未定义变量: PhonenumberstatusList
+---------------------------------------------------------------
+[ 2019-10-09T19:21:04+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[ error ] [0]致命错误: Class 'app\admin\controller\Db' not found
+---------------------------------------------------------------
+[ 2019-10-09T19:27:08+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[ error ] [8]未定义变量: where
+---------------------------------------------------------------
+[ 2019-10-09T19:27:14+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[ error ] [8]未定义变量: where
+---------------------------------------------------------------
+[ 2019-10-09T19:27:59+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：3.194200s] [吞吐率：0.31req/s] [内存消耗：3,556.31kb] [文件加载：147]
+[ error ] [8]未定义变量: where[G:\WWW\xincaiwu\application\admin\controller\Bankcardmanagement.php:59]
+---------------------------------------------------------------
+[ 2019-10-09T19:28:24+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：3.306337s] [吞吐率：0.30req/s] [内存消耗：3,535.20kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'accountmanagementID' in 'where clause'[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-09T19:46:16+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：4.480466s] [吞吐率：0.22req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T19:52:01+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：5.254810s] [吞吐率：0.19req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T19:53:54+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：1.776981s] [吞吐率：0.56req/s] [内存消耗：2,972.40kb] [文件加载：138]
+[ error ] [2002]SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-10-09T20:04:07+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：1.114420s] [吞吐率：0.90req/s] [内存消耗：2,972.46kb] [文件加载：138]
+[ error ] [1130]SQLSTATE[HY000] [1130] Host '171.253.140.192' is not allowed to connect to this MySQL server[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-10-09T20:04:42+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：4.824666s] [吞吐率：0.21req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T20:10:11+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：4.426285s] [吞吐率：0.23req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T20:10:55+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：4.582803s] [吞吐率：0.22req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T20:11:11+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：4.539709s] [吞吐率：0.22req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T20:14:16+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：4.748736s] [吞吐率：0.21req/s] [内存消耗：3,553.66kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T20:17:03+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：4.616969s] [吞吐率：0.22req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T20:19:46+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：4.218854s] [吞吐率：0.24req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T20:28:30+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：5.630339s] [吞吐率：0.18req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T20:31:45+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：4.690146s] [吞吐率：0.21req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T20:33:39+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：5.271330s] [吞吐率：0.19req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T20:35:31+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：4.984263s] [吞吐率：0.20req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T20:47:22+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：5.293319s] [吞吐率：0.19req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T20:48:11+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：4.544826s] [吞吐率：0.22req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T20:59:49+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：4.798218s] [吞吐率：0.21req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-10-09T21:03:15+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：4.300389s] [吞吐率：0.23req/s] [内存消耗：3,555.86kb] [文件加载：149]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1118 Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:453]

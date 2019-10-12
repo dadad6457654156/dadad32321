@@ -1,0 +1,65 @@
+---------------------------------------------------------------
+[ 2019-09-13T19:41:29+08:00 ] 127.0.0.1 POST caiwu.com/admin/index/login.html
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'caiwu'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2019-09-13T19:41:43+08:00 ] 127.0.0.1 POST caiwu.com/admin/index/login.html
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'caiwu'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2019-09-13T19:41:50+08:00 ] 127.0.0.1 POST caiwu.com/admin/index/login.html
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'caiwu'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2019-09-13T19:42:02+08:00 ] 127.0.0.1 POST caiwu.com/admin/index/login.html
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'caiwu'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2019-09-13T19:42:35+08:00 ] 127.0.0.1 POST caiwu.com/admin/index/login.html
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'caiwu'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2019-09-13T19:50:54+08:00 ] 127.0.0.1 POST caiwu.com/admin/index/login.html
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'caiwu'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2019-09-13T19:51:01+08:00 ] 127.0.0.1 POST caiwu.com/admin/index/login.html
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'caiwu'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2019-09-13T19:51:44+08:00 ] 127.0.0.1 POST caiwu.com/admin/index/login.html
+[运行时间：0.125441s] [吞吐率：7.97req/s] [内存消耗：3,250.45kb] [文件加载：144]
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'caiwu'@'localhost' (using password: YES)[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-09-13T19:51:51+08:00 ] 127.0.0.1 POST caiwu.com/admin/index/login.html
+[运行时间：0.337865s] [吞吐率：2.96req/s] [内存消耗：3,277.14kb] [文件加载：143]
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'caiwu'@'localhost' (using password: YES)[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2019-09-13T20:59:23+08:00 ] 127.0.0.1 GET caiwu.com/admin/zhanghujiaodui/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22source%22%3A%220%22%7D&op=%7B%22source%22%3A%22%3D%22%7D&_=1568377390701
+[运行时间：4.450498s] [吞吐率：0.22req/s] [内存消耗：3,535.79kb] [文件加载：146]
+[ error ] [0]致命错误: Class 'app\admin\controller\Request' not found[G:\WWW\xincaiwu\application\admin\controller\Zhanghujiaodui.php:53]
+---------------------------------------------------------------
+[ 2019-09-13T20:59:39+08:00 ] 127.0.0.1 GET caiwu.com/admin/zhanghujiaodui/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22source%22%3A%220%22%7D&op=%7B%22source%22%3A%22%3D%22%7D&_=1568377390702
+[运行时间：4.405065s] [吞吐率：0.23req/s] [内存消耗：3,535.79kb] [文件加载：146]
+[ error ] [0]致命错误: Class 'app\admin\controller\Request' not found[G:\WWW\xincaiwu\application\admin\controller\Zhanghujiaodui.php:53]
+---------------------------------------------------------------
+[ 2019-09-13T21:03:54+08:00 ] 127.0.0.1 GET caiwu.com/admin/zhanghujiaodui/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22status%22%3A%220%22%7D&op=%7B%22status%22%3A%22%3D%22%7D&_=1568377390707
+[运行时间：3.755970s] [吞吐率：0.27req/s] [内存消耗：3,537.52kb] [文件加载：146]
+[ error ] [0]类型错误: Too few arguments to function app\admin\controller\Zhanghujiaodui::quzhanghu(), 0 passed in G:\WWW\xincaiwu\application\admin\controller\Zhanghujiaodui.php on line 73 and exactly 1 expected[G:\WWW\xincaiwu\application\admin\controller\Zhanghujiaodui.php:103]
+---------------------------------------------------------------
+[ 2019-09-13T21:07:08+08:00 ] 127.0.0.1 GET caiwu.com/admin/zhanghujiaodui/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22source%22%3A%220%22%7D&op=%7B%22source%22%3A%22%3D%22%7D&_=1568377390712
+[运行时间：4.022347s] [吞吐率：0.25req/s] [内存消耗：3,551.55kb] [文件加载：148]
+[ error ] [8]未定义变量: bankelist[G:\WWW\xincaiwu\application\admin\controller\Zhanghujiaodui.php:111]
+---------------------------------------------------------------
+[ 2019-09-13T21:20:07+08:00 ] 127.0.0.1 GET caiwu.com/admin/zhanghujiaodui/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22source%22%3A%220%22%2C%22status%22%3A%221%22%7D&op=%7B%22source%22%3A%22%3D%22%2C%22status%22%3A%22%3D%22%7D&_=1568377390717
+[运行时间：0.114999s] [吞吐率：8.70req/s] [内存消耗：2,065.33kb] [文件加载：123]
+[ error ] [0]语法解析错误: syntax error, unexpected 'qushijianduanqianmoney' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)[G:\WWW\xincaiwu\application\admin\controller\Zhanghujiaodui.php:103]
+---------------------------------------------------------------
+[ 2019-09-13T21:21:01+08:00 ] 127.0.0.1 GET caiwu.com/admin/zhanghujiaodui/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22source%22%3A%220%22%2C%22status%22%3A%221%22%7D&op=%7B%22source%22%3A%22%3D%22%2C%22status%22%3A%22%3D%22%7D&_=1568377390718
+[运行时间：6.638773s] [吞吐率：0.15req/s] [内存消耗：3,568.48kb] [文件加载：150]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'baneid' in 'where clause'[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-09-13T21:37:20+08:00 ] 127.0.0.1 GET caiwu.com/admin/zhanghujiaodui/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22source%22%3A%220%22%2C%22status%22%3A%221%22%7D&op=%7B%22source%22%3A%22%3D%22%2C%22status%22%3A%22%3D%22%7D&_=1568377390721
+[运行时间：0.097562s] [吞吐率：10.25req/s] [内存消耗：2,065.20kb] [文件加载：123]
+[ error ] [0]语法解析错误: syntax error, unexpected 'time' (T_STRING)[G:\WWW\xincaiwu\application\admin\controller\Zhanghujiaodui.php:109]
+---------------------------------------------------------------
+[ 2019-09-13T21:37:49+08:00 ] 127.0.0.1 GET caiwu.com/admin/zhanghujiaodui/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22source%22%3A%220%22%2C%22status%22%3A%221%22%7D&op=%7B%22source%22%3A%22%3D%22%2C%22status%22%3A%22%3D%22%7D&_=1568377390722
+[运行时间：0.075802s] [吞吐率：13.19req/s] [内存消耗：2,065.20kb] [文件加载：123]
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'[G:\WWW\xincaiwu\application\admin\controller\Zhanghujiaodui.php:109]
+---------------------------------------------------------------
+[ 2019-09-13T21:38:08+08:00 ] 127.0.0.1 GET caiwu.com/admin/zhanghujiaodui/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%22source%22%3A%220%22%2C%22status%22%3A%221%22%7D&op=%7B%22source%22%3A%22%3D%22%2C%22status%22%3A%22%3D%22%7D&_=1568377390723
+[运行时间：0.094207s] [吞吐率：10.61req/s] [内存消耗：2,065.20kb] [文件加载：123]
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'[G:\WWW\xincaiwu\application\admin\controller\Zhanghujiaodui.php:109]

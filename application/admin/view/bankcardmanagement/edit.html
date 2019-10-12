@@ -1,0 +1,202 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Accountmanagementid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-accountmanagementID" data-rule="required" class="form-control" name="row[accountmanagementID]" type="number" value="{$row.accountmanagementID|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" class="form-control" name="row[name]" type="text" value="{$row.name|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-type" class="form-control" name="row[type]" type="text" value="{$row.type|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Balance')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-balance" class="form-control" step="0.01" name="row[balance]" type="number" value="{$row.balance|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Idnumber')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-IDnumber" class="form-control " rows="5" name="row[IDnumber]" cols="50">{$row.IDnumber|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Homeaddress')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-Homeaddress" class="form-control " rows="5" name="row[Homeaddress]" cols="50">{$row.Homeaddress|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Telephone')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-telephone" class="form-control " rows="5" name="row[telephone]" cols="50">{$row.telephone|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Phonenumberstatus')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <div class="radio">
+            {foreach name="phonenumberstatusList" item="vo"}
+            <label for="row[Phonenumberstatus]-{$key}"><input id="row[Phonenumberstatus]-{$key}" name="row[Phonenumberstatus]" type="radio" value="{$key}" {in name="key" value="$row.Phonenumberstatus"}checked{/in} /> {$vo}</label> 
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Bankcardnumber')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-Bankcardnumber" class="form-control " rows="5" name="row[Bankcardnumber]" cols="50">{$row.Bankcardnumber|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Subbankcardnumber')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-subBankcardnumber" class="form-control " rows="5" name="row[subBankcardnumber]" cols="50">{$row.subBankcardnumber|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Loginaccount')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-Loginaccount" class="form-control " rows="5" name="row[Loginaccount]" cols="50">{$row.Loginaccount|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Loginpassword')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-loginpassword" class="form-control " rows="5" name="row[loginpassword]" cols="50">{$row.loginpassword|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Ushieldpassword')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-Ushieldpassword" class="form-control " rows="5" name="row[Ushieldpassword]" cols="50">{$row.Ushieldpassword|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Withdrawalspassword')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-Withdrawalspassword" class="form-control " rows="5" name="row[Withdrawalspassword]" cols="50">{$row.Withdrawalspassword|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Idcardfrontpicturez')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-IDcardfrontpicturez" class="form-control " rows="5" name="row[IDcardfrontpicturez]" cols="50">{$row.IDcardfrontpicturez|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Idcardreversepictures')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-IDcardreversepictures" class="form-control " rows="5" name="row[IDcardreversepictures]" cols="50">{$row.IDcardreversepictures|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Bankcardfrontpicture')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-bankcardfrontpicture" class="form-control " rows="5" name="row[bankcardfrontpicture]" cols="50">{$row.bankcardfrontpicture|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Bankcardreversepicture')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-bankcardreversepicture" class="form-control " rows="5" name="row[bankcardreversepicture]" cols="50">{$row.bankcardreversepicture|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Cardstatus')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-Cardstatus" class="form-control " rows="5" name="row[Cardstatus]" cols="50">{$row.Cardstatus|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Remarks')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-Remarks" class="form-control " rows="5" name="row[Remarks]" cols="50">{$row.Remarks|htmlentities}</textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Numberofalipays')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-NumberofAlipays" class="form-control" name="row[NumberofAlipays]" type="number" value="{$row.NumberofAlipays|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Numberofwechat')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-NumberofWeChat" class="form-control" name="row[NumberofWeChat]" type="number" value="{$row.NumberofWeChat|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Isopenwechat')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-IsopenWeChat" class="form-control selectpicker" name="row[IsopenWeChat]">
+                {foreach name="isopenwechatList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.IsopenWeChat"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Isopenalipay')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-IsopenAlipay" data-rule="required" class="form-control selectpicker" name="row[IsopenAlipay]">
+                {foreach name="isopenalipayList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.IsopenAlipay"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Dateofpurchase')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-Dateofpurchase" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[Dateofpurchase]" type="text" value="{$row.Dateofpurchase}">
+        </div>
+    </div>
+    <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Administrator')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-administrator" class="form-control" name="row[administrator]" type="text" value="{$row.administrator|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Shieldnumber')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-Shieldnumber" class="form-control" name="row[Shieldnumber]" type="number" value="{$row.Shieldnumber|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Yanzhengjizhi')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-yanzhengjizhi" class="form-control selectpicker" name="row[yanzhengjizhi]">
+                {foreach name="yanzhengjizhiList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.yanzhengjizhi"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

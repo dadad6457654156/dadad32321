@@ -1,0 +1,289 @@
+---------------------------------------------------------------
+[ 2019-08-19T19:25:21+08:00 ] 127.0.0.1 POST caiwu.com/admin/index/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003702s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.024898s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000910s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1566213921,`token`='40bad77e-a598-47ae-acdb-0548646acab6',`updatetime`=1566213921  WHERE  `id` = 1 [ RunTime:0.001922s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.013969s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"0127c2cbd343c3515138d9c72eb8f9ec\",\"username\":\"admin\",\"captcha\":\"req8\"}' , '/admin/index/login.html' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36' , '127.0.0.1' , 1566213921) [ RunTime:0.001824s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:25:21+08:00 ] 127.0.0.1 GET caiwu.com/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001859s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.013753s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001975s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.013191s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000836s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:25:22+08:00 ] 127.0.0.1 GET caiwu.com/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012242s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.013945s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.013639s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001143s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:25:45+08:00 ] 127.0.0.1 GET caiwu.com/admin/zccategory?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001486s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.025142s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012422s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'zccategory' LIMIT 1 [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:25:45+08:00 ] 127.0.0.1 GET caiwu.com/admin/zccategory/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1566213945437
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011672s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011717s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011890s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001014s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_zccategory` [ RunTime:0.013260s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_zccategory` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_zccategory` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000541s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:25:51+08:00 ] 127.0.0.1 GET caiwu.com/admin/accounttypes?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012405s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011461s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.010746s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'accounttypes' LIMIT 1 [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:25:51+08:00 ] 127.0.0.1 GET caiwu.com/admin/accounttypes/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1566213951508
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011620s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.016583s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001117s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.019776s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_accounttypes` [ RunTime:0.012777s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_accounttypes` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_accounttypes` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000710s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:25:52+08:00 ] 127.0.0.1 GET caiwu.com/admin/zccategory/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1566213945438
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010470s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.022053s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012333s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001117s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_zccategory` [ RunTime:0.011462s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_zccategory` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_zccategory` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000601s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:25:54+08:00 ] 127.0.0.1 GET caiwu.com/admin/accounttypes/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1566213951509
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010578s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011927s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.010843s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_accounttypes` [ RunTime:0.010972s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_accounttypes` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_accounttypes` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000528s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:25:54+08:00 ] 127.0.0.1 GET caiwu.com/admin/zccategory/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1566213945439
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011259s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012060s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011963s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001093s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_zccategory` [ RunTime:0.015892s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_zccategory` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_zccategory` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000639s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:52:30+08:00 ] 127.0.0.1 GET caiwu.com/admin/zccategory/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1566213945440
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011687s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.013351s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011979s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001135s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_zccategory` [ RunTime:0.012927s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_zccategory` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_zccategory` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:52:32+08:00 ] 127.0.0.1 GET caiwu.com/admin/zccategory/index?addtabs=1&sort=id&order=desc&offset=0&limit=25&filter=%7B%7D&op=%7B%7D&_=1566213945441
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001797s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011910s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.013282s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001055s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_zccategory` [ RunTime:0.013723s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_zccategory` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_zccategory` ORDER BY `id` DESC LIMIT 0,25 [ RunTime:0.000691s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:57:30+08:00 ] 127.0.0.1 GET caiwu.com/admin/zccategory?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001623s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012429s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011609s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001093s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:57:30+08:00 ] 127.0.0.1 GET caiwu.com/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011348s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011352s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012055s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000804s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:57:30+08:00 ] 127.0.0.1 GET caiwu.com/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001212s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012913s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012657s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000992s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:57:31+08:00 ] 127.0.0.1 GET caiwu.com/admin/zccategory?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001791s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.014154s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'zccategory' LIMIT 1 [ RunTime:0.000579s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:57:31+08:00 ] 127.0.0.1 GET caiwu.com/admin/zccategory/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1566215851397
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001898s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.013342s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.013652s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_zccategory` [ RunTime:0.016684s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_zccategory` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_zccategory` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000653s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:57:31+08:00 ] 127.0.0.1 GET caiwu.com/admin/zccategory/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1566215851398
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002375s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.013707s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012448s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_zccategory` [ RunTime:0.012503s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_zccategory` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_zccategory` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:57:34+08:00 ] 127.0.0.1 GET caiwu.com/admin/exchange?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010987s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012575s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011894s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'exchange' LIMIT 1 [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:57:35+08:00 ] 127.0.0.1 GET caiwu.com/admin/exchange/index?addtabs=1&sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1566215854898
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010874s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.015747s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012777s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001152s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_exchange` [ RunTime:0.012326s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_exchange` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_exchange` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[ 2019-08-19T19:57:38+08:00 ] 127.0.0.1 GET caiwu.com/admin/exchange/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001397s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.013738s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.013028s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001239s ]
+---------------------------------------------------------------
+[ 2019-08-19T20:17:01+08:00 ] 127.0.0.1 POST caiwu.com/admin/exchange/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002365s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012932s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012446s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_exchange` [ RunTime:0.011024s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.028332s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('外汇管理 添加' , '{\"dialog\":\"1\",\"row\":{\"Redeemtheaccount\":\"\\u5f20\\u5764|\\u5efa\\u8bbe\\u94f6\\u884c\",\"Redeemtheaccouid\":\"12\",\"Typesof\":\"1\",\"Redeemintotheaccount\":\"\\u5907\\u7528\\u91d1|\\u7f8e\\u91d1\",\"Redeemintotheaccountid\":\"8\",\" CashoutAmount\":\"1000\",\"Redemptioamount\":\"1000\",\"exchangerate\":\"7.5\",\"Handlingee\":\"100\",\"operator\":\"admin\"}}' , '/admin/exchange/add?dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36' , '127.0.0.1' , 1566217021) [ RunTime:0.002399s ]
+---------------------------------------------------------------
+[ 2019-08-19T20:17:02+08:00 ] 127.0.0.1 POST caiwu.com/admin/exchange/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020242s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012037s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012345s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_exchange` [ RunTime:0.011947s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.012006s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('外汇管理 添加' , '{\"dialog\":\"1\",\"row\":{\"Redeemtheaccount\":\"\\u5f20\\u5764|\\u5efa\\u8bbe\\u94f6\\u884c\",\"Redeemtheaccouid\":\"12\",\"Typesof\":\"1\",\"Redeemintotheaccount\":\"\\u5907\\u7528\\u91d1|\\u7f8e\\u91d1\",\"Redeemintotheaccountid\":\"8\",\" CashoutAmount\":\"1000\",\"Redemptioamount\":\"1000\",\"exchangerate\":\"7.5\",\"Handlingee\":\"100\",\"operator\":\"admin\"}}' , '/admin/exchange/add?dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36' , '127.0.0.1' , 1566217022) [ RunTime:0.002359s ]
+---------------------------------------------------------------
+[ 2019-08-19T20:17:03+08:00 ] 127.0.0.1 POST caiwu.com/admin/exchange/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001263s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011504s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011807s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_exchange` [ RunTime:0.011859s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.011701s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('外汇管理 添加' , '{\"dialog\":\"1\",\"row\":{\"Redeemtheaccount\":\"\\u5f20\\u5764|\\u5efa\\u8bbe\\u94f6\\u884c\",\"Redeemtheaccouid\":\"12\",\"Typesof\":\"1\",\"Redeemintotheaccount\":\"\\u5907\\u7528\\u91d1|\\u7f8e\\u91d1\",\"Redeemintotheaccountid\":\"8\",\" CashoutAmount\":\"1000\",\"Redemptioamount\":\"1000\",\"exchangerate\":\"7.5\",\"Handlingee\":\"100\",\"operator\":\"admin\"}}' , '/admin/exchange/add?dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36' , '127.0.0.1' , 1566217023) [ RunTime:0.002495s ]
+---------------------------------------------------------------
+[ 2019-08-19T20:17:04+08:00 ] 127.0.0.1 POST caiwu.com/admin/exchange/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011204s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012563s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011910s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_exchange` [ RunTime:0.012799s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.011932s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('外汇管理 添加' , '{\"dialog\":\"1\",\"row\":{\"Redeemtheaccount\":\"\\u5f20\\u5764|\\u5efa\\u8bbe\\u94f6\\u884c\",\"Redeemtheaccouid\":\"12\",\"Typesof\":\"1\",\"Redeemintotheaccount\":\"\\u5907\\u7528\\u91d1|\\u7f8e\\u91d1\",\"Redeemintotheaccountid\":\"8\",\" CashoutAmount\":\"1000\",\"Redemptioamount\":\"1000\",\"exchangerate\":\"7.5\",\"Handlingee\":\"100\",\"operator\":\"admin\"}}' , '/admin/exchange/add?dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36' , '127.0.0.1' , 1566217024) [ RunTime:0.002262s ]
+---------------------------------------------------------------
+[ 2019-08-19T20:17:05+08:00 ] 127.0.0.1 POST caiwu.com/admin/exchange/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001438s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011433s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.013051s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001008s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_exchange` [ RunTime:0.012369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.012279s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('外汇管理 添加' , '{\"dialog\":\"1\",\"row\":{\"Redeemtheaccount\":\"\\u5f20\\u5764|\\u5efa\\u8bbe\\u94f6\\u884c\",\"Redeemtheaccouid\":\"12\",\"Typesof\":\"1\",\"Redeemintotheaccount\":\"\\u5907\\u7528\\u91d1|\\u7f8e\\u91d1\",\"Redeemintotheaccountid\":\"8\",\" CashoutAmount\":\"1000\",\"Redemptioamount\":\"1000\",\"exchangerate\":\"7.5\",\"Handlingee\":\"100\",\"operator\":\"admin\"}}' , '/admin/exchange/add?dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36' , '127.0.0.1' , 1566217025) [ RunTime:0.002358s ]
+---------------------------------------------------------------
+[ 2019-08-19T20:17:41+08:00 ] 127.0.0.1 POST caiwu.com/admin/exchange/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011941s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012485s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012885s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_exchange` [ RunTime:0.013081s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.012743s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('外汇管理 添加' , '{\"dialog\":\"1\",\"row\":{\"Redeemtheaccount\":\"\\u5f20\\u5764|\\u5efa\\u8bbe\\u94f6\\u884c\",\"Redeemtheaccouid\":\"12\",\"Typesof\":\"0\",\"Redeemintotheaccount\":\"\\u5907\\u7528\\u91d1|\\u7f8e\\u91d1\",\"Redeemintotheaccountid\":\"8\",\" CashoutAmount\":\"1000\",\"Redemptioamount\":\"1000\",\"exchangerate\":\"7.5\",\"Handlingee\":\"100\",\"operator\":\"admin\"}}' , '/admin/exchange/add?dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36' , '127.0.0.1' , 1566217061) [ RunTime:0.002512s ]
+---------------------------------------------------------------
+[ 2019-08-19T20:17:48+08:00 ] 127.0.0.1 POST caiwu.com/admin/exchange/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012419s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012012s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012862s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_exchange` [ RunTime:0.012235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.013409s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('外汇管理 添加' , '{\"dialog\":\"1\",\"row\":{\"Redeemtheaccount\":\"\\u5f20\\u5764|\\u5efa\\u8bbe\\u94f6\\u884c\",\"Redeemtheaccouid\":\"12\",\"Typesof\":\"0\",\"Redeemintotheaccount\":\"\\u5907\\u7528\\u91d1|\\u7f8e\\u91d1\",\"Redeemintotheaccountid\":\"8\",\" CashoutAmount\":\"1000\",\"Redemptioamount\":\"1000\",\"exchangerate\":\"7.5\",\"Handlingee\":\"100\",\"operator\":\"admin\"}}' , '/admin/exchange/add?dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36' , '127.0.0.1' , 1566217068) [ RunTime:0.002380s ]
+---------------------------------------------------------------
+[ 2019-08-19T20:18:04+08:00 ] 127.0.0.1 POST caiwu.com/admin/exchange/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001643s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011135s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012038s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_exchange` [ RunTime:0.011655s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.012302s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('外汇管理 添加' , '{\"dialog\":\"1\",\"row\":{\"Redeemtheaccount\":\"\\u5f20\\u5764|\\u5efa\\u8bbe\\u94f6\\u884c\",\"Redeemtheaccouid\":\"12\",\"Typesof\":\"0\",\"Redeemintotheaccount\":\"\\u5907\\u7528\\u91d1|\\u7f8e\\u91d1\",\"Redeemintotheaccountid\":\"8\",\" CashoutAmount\":\"1000\",\"Redemptioamount\":\"1000\",\"exchangerate\":\"7.5\",\"Handlingee\":\"100\",\"operator\":\"admin\"}}' , '/admin/exchange/add?dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36' , '127.0.0.1' , 1566217084) [ RunTime:0.002152s ]
+---------------------------------------------------------------
+[ 2019-08-19T20:18:10+08:00 ] 127.0.0.1 GET caiwu.com/admin/addon?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011484s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011850s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011513s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001039s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'addon' LIMIT 1 [ RunTime:0.001194s ]
+---------------------------------------------------------------
+[ 2019-08-19T20:18:29+08:00 ] 127.0.0.1 POST caiwu.com/admin/addon/install
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017741s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011798s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012024s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000987s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'general' LIMIT 1 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('general/logs' , '日志管理' , 1 , 'fa fa-pied-piper-alt' , 2 , 'normal' , 1566217109 , 1566217109) [ RunTime:0.002410s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('general/logs/index' , '查看' , 0 , 'fa fa-circle-o' , 153 , 'normal' , 1566217109 , 1566217109) [ RunTime:0.002190s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('general/logs/del' , '删除' , 0 , 'fa fa-circle-o' , 153 , 'normal' , 1566217109 , 1566217109) [ RunTime:0.002045s ]
+[ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`name` , `title` , `ismenu` , `icon` , `pid` , `status` , `createtime` , `updatetime`) VALUES ('general/logs/detail' , '详情' , 0 , 'fa fa-circle-o' , 153 , 'normal' , 1566217109 , 1566217109) [ RunTime:0.002359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.011595s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('插件管理 安装' , '{\"name\":\"log\",\"force\":\"0\",\"uid\":\"0\",\"token\":\"\",\"version\":\"1.0.3\",\"faversion\":\"1.0.0.20190705_beta\"}' , '/admin/addon/install' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36' , '127.0.0.1' , 1566217109) [ RunTime:0.002406s ]

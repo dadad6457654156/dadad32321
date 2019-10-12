@@ -1,0 +1,16 @@
+---------------------------------------------------------------
+[ 2019-10-12T04:13:13+08:00 ] 127.0.0.1 GET caiwu.com/admin/bankcardmanagement/edit/ids/31?dialog=1
+[运行时间：0.105593s] [吞吐率：9.47req/s] [内存消耗：2,074.05kb] [文件加载：125]
+[ error ] [0]语法解析错误: syntax error, unexpected ',', expecting ';'[G:\WWW\xincaiwu\application\admin\controller\Bankcardmanagement.php:468]
+---------------------------------------------------------------
+[ 2019-10-12T04:13:39+08:00 ] 127.0.0.1 GET caiwu.com/admin/bankcardmanagement/edit/ids/31?dialog=1
+[运行时间：4.561842s] [吞吐率：0.22req/s] [内存消耗：3,583.12kb] [文件加载：148]
+[ error ] [8]未定义变量: encrypted[G:\WWW\xincaiwu\application\admin\controller\Bankcardmanagement.php:467]
+---------------------------------------------------------------
+[ 2019-10-12T04:14:04+08:00 ] 127.0.0.1 GET caiwu.com/admin/bankcardmanagement/edit/ids/31?dialog=1
+[运行时间：4.461871s] [吞吐率：0.22req/s] [内存消耗：3,583.17kb] [文件加载：148]
+[ error ] [2]openssl_private_decrypt(): key parameter is not a valid private key[G:\WWW\xincaiwu\application\admin\controller\Bankcardmanagement.php:467]
+---------------------------------------------------------------
+[ 2019-10-12T14:59:38+08:00 ] 127.0.0.1 GET caiwu.com/admin/dashboard?ref=addtabs
+[运行时间：1.217608s] [吞吐率：0.82req/s] [内存消耗：2,986.07kb] [文件加载：138]
+[ error ] [1130]SQLSTATE[HY000] [1130] Host '171.253.136.230' is not allowed to connect to this MySQL server[G:\WWW\xincaiwu\thinkphp\library\think\db\Connection.php:295]

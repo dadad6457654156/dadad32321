@@ -1,0 +1,164 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemtheaccount')}:</label>
+		    <div class="col-xs-12 col-sm-5" data-toggle="cxselect" data-selects="province,city,area">
+<select  id = "zhuanru" class="province form-control" name="row[Redeemtheaccount]" data-url="/admin/category/banklist"></select>
+ 
+ 
+</div>
+        <label class="control-label col-xs-12 col-sm-2">模糊搜索:</label>
+        <div class="col-xs-12 col-sm-3">
+            <input id="c-zhuanrumohu" class="form-control"  oninput="console.log('input');"  type="text">
+        </div>
+    </div>
+    <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemtheaccouid')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-Redeemtheaccouid" data-rule="required" class="form-control" name="row[Redeemtheaccouid]" type="number" value="1"  disabled="disabled" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemintotheaccount')}:</label>
+          		    <div class="col-xs-12 col-sm-5" data-toggle="cxselect" data-selects="province,city,area">
+<select id="zhuanchu" class="province form-control" name="row[Redeemintotheaccount]" data-url="/admin/category/banklist"></select>
+ 
+ 
+</div>
+        <label class="control-label col-xs-12 col-sm-2">模糊搜索:</label>
+        <div class="col-xs-12 col-sm-3">
+            <input id="c-zhuanchumohu" class="form-control" name="row[beizhu]" type="text">
+        </div>
+    </div>
+    <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemintotheaccountid')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-Redeemintotheaccountid" data-rule="required" class="form-control" name="row[Redeemintotheaccountid]" type="number" value="2"  disabled="disabled" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Amount')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-Amount" data-rule="required" class="form-control" name="row[Amount]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Handlingee')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-Handlingee" data-rule="required" class="form-control" name="row[Handlingee]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemtheaccountqmoney')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-Redeemtheaccountqmoney" class="form-control" name="row[Redeemtheaccountqmoney]" type="number">
+        </div>
+    </div>
+    <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemtheaccounthmoney')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-Redeemtheaccounthmoney" class="form-control" name="row[Redeemtheaccounthmoney]" type="number">
+        </div>
+    </div>
+    <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemintotheaccountqmoney')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-Redeemintotheaccountqmoney" class="form-control" name="row[Redeemintotheaccountqmoney]" type="number">
+        </div>
+    </div>
+    <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemintotheaccounthmoney')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-Redeemintotheaccounthmoney" class="form-control" name="row[Redeemintotheaccounthmoney]" type="number">
+        </div>
+    </div>
+    
+     <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Createtime')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-beizhu" class="form-control" name="row[createtime]" type="text">
+        </div>
+    </div>
+   
+   
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Beizhu')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-beizhu" class="form-control" name="row[beizhu]" type="text">
+        </div>
+    </div>
+  <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Operator')}:</label>
+        <div class="col-xs-12 col-sm-5">
+              <input id="c-operator" data-rule="required" class="form-control" name="row[operator]" type="text" value="{$admin.username}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-5">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
+<script type="text/javascript">
+document.getElementById('c-zhuanrumohu').oninput=function(){
+if(document.getElementById('c-zhuanrumohu').value.length > 0){
+	var name =  document.getElementById('c-zhuanrumohu').value;
+ $.get("/admin/category/banklist?name="+name,function(data,status){
+    
+  jQuery("#zhuanru").empty();  
+  
+  $("#zhuanru").append("<option value='查询成功"+data.data.length+"个符合条件'>查询成功"+data.data.length+"个符合条件</option>");   
+for(var i = 0, len = data.data.length; i < len; i++){
+ $("#zhuanru").append("<option value='"+data.data[i].name+"'>"+data.data[i].name+"</option>");
+}
+});	
+}else{
+ $.get("/admin/category/banklist",function(data,status){
+    
+  jQuery("#zhuanru").empty();  
+  $("#zhuanru").append("<option value='请选择'>请选择</option>");   
+for(var i = 0, len = data.data.length; i < len; i++){
+ $("#zhuanru").append("<option value='"+data.data[i].name+"'>"+data.data[i].name+"</option>");
+}
+});	
+}
+}
+
+document.getElementById('c-zhuanchumohu').oninput=function(){
+if(document.getElementById('c-zhuanchumohu').value.length > 0){
+	var name =  document.getElementById('c-zhuanchumohu').value;
+ $.get("/admin/category/banklist?name="+name,function(data,status){
+    
+  jQuery("#zhuanchu").empty();  
+  
+  $("#zhuanchu").append("<option value='查询成功"+data.data.length+"个符合条件'>查询成功"+data.data.length+"个符合条件</option>");   
+for(var i = 0, len = data.data.length; i < len; i++){
+ $("#zhuanchu").append("<option value='"+data.data[i].name+"'>"+data.data[i].name+"</option>");
+}
+});	
+}else{
+ $.get("/admin/category/banklist",function(data,status){
+    
+  jQuery("#zhuanchu").empty();  
+  $("#zhuanchu").append("<option value='请选择'>请选择</option>");   
+for(var i = 0, len = data.data.length; i < len; i++){
+ $("#zhuanchu").append("<option value='"+data.data[i].name+"'>"+data.data[i].name+"</option>");
+}
+});	
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</script>

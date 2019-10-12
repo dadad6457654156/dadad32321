@@ -1,0 +1,31 @@
+
+Tracing dependencies for: require-frontend
+Uglify file: G:/WWW/xincaiwu/public/assets/js/require-frontend.min.js
+
+G:/WWW/xincaiwu/public/assets/js/require-frontend.min.js
+----------------
+G:/WWW/xincaiwu/public/assets/libs/jquery/dist/jquery.min.js
+G:/WWW/xincaiwu/public/assets/libs/bootstrap/dist/js/bootstrap.min.js
+G:/WWW/xincaiwu/public/assets/js/require-frontend.js
+G:/WWW/xincaiwu/public/assets/js/../libs/require-css/css.min.js
+G:/WWW/xincaiwu/public/assets/libs/fastadmin-layer/dist/layer.js
+G:/WWW/xincaiwu/public/assets/libs/toastr/toastr.js
+G:/WWW/xincaiwu/public/assets/js/fast.js
+G:/WWW/xincaiwu/public/assets/libs/art-template/dist/template-native.js
+G:/WWW/xincaiwu/public/assets/js/../libs/moment/moment.js
+G:/WWW/xincaiwu/public/assets/js/frontend.js
+G:/WWW/xincaiwu/public/assets/js/frontend-init.js
+
+
+G:/WWW/xincaiwu/public/assets/css/frontend.min.css
+----------------
+G:/WWW/xincaiwu/public/assets/css/../css/bootstrap.css
+G:/WWW/xincaiwu/public/assets/css/../css/fastadmin.css
+G:/WWW/xincaiwu/public/assets/css/../css/iconfont.css
+G:/WWW/xincaiwu/public/assets/css/../libs/font-awesome/css/font-awesome.min.css
+G:/WWW/xincaiwu/public/assets/css/../libs/toastr/toastr.min.css
+G:/WWW/xincaiwu/public/assets/css/../libs/fastadmin-layer/dist/theme/default/layer.css
+G:/WWW/xincaiwu/public/assets/css/../libs/bootstrap-daterangepicker/daterangepicker.css
+G:/WWW/xincaiwu/public/assets/css/../libs/nice-validator/dist/jquery.validator.css
+G:/WWW/xincaiwu/public/assets/css/frontend.css
+

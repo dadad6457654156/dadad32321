@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'Id'                       => 'ID',
+    'Name'                     => '账户',
+    'Initialbalance'           => '初始余额',
+    'Soushoshijianduanqianyue' => '搜索时间段前余额',
+    'Zhichutuihui'             => '支出退回金额',
+    'Qitashouru'               => '其它收入金额',
+    'Kehulaikuan'              => '客户入款金额',
+    'Huanhuizhuanru'           => '换汇转入',
+    'Huanhuizhuanchu'          => '换汇转出',
+    'Zhuanru'                  => '内部转入',
+    'Zhuanchu'                 => '内部转出',
+    'Handlingee'               => '手续费',
+    'Chukuan'                  => '出款',
+    'Zhichu'                   => '支出',
+    'Shishijueyu'              => '实时余额',
+    'zhglssye'              => '账户管理实时余额',    
+    'Source'                   => '币种',
+    'Source 0'                 => '人民币',
+    'Source 1'                 => '美金',
+    'Status'                   => '状态',
+    'Status 0'                 => '正常使用',
+    'Status 1'                 => '三方未结',
+    'Status 2'                 => '临时停用',
+    'Status 3'                 => '临时冻结',
+    'Status 4'                 => '永久停用',
+    'Status 5'                 => '永久冻结',
+    'Createtime'               => '查询时间'
+];

@@ -1,0 +1,167 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemtheaccount')}:</label>
+            		    <div class="col-xs-12 col-sm-5" data-toggle="cxselect" data-selects="province,city,area">
+<select  id = "zhuanru" class="province form-control" name="row[Redeemtheaccount]" data-url="/admin/category/banklist"></select>
+ 
+ 
+</div>
+
+      <label class="control-label col-xs-12 col-sm-2">模糊搜索:</label>
+        <div class="col-xs-12 col-sm-3">
+            <input id="c-zhuanrumohu" class="form-control"  oninput="console.log('input');"  type="text">
+        </div>
+    </div>
+    <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemtheaccouid')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-Redeemtheaccouid" data-rule="required" class="form-control" name="row[Redeemtheaccouid]"  value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Amount')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-Amount" data-rule="required" class="form-control" name="row[Amount]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Handlingee')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-Handlingee" class="form-control" name="row[Handlingee]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemtheaccountqmoney')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-Redeemtheaccountqmoney" class="form-control" name="row[Redeemtheaccountqmoney]" type="number"  value="0">
+        </div>
+    </div>
+    <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemtheaccounthmoney')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-Redeemtheaccounthmoney" class="form-control" name="row[Redeemtheaccounthmoney]" type="number"  value="0">
+        </div>
+    </div>
+    
+           <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Bumen')}:</label>
+        <div class="col-xs-12 col-sm-5">
+                        
+            <select  id="c-bumen" data-rule="required" class="form-control selectpicker" name="row[bumen]">
+                {foreach name="bumenList" item="vo"}
+                    <option value="{$key}" {in name="key" value="0"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-5" data-toggle="cxselect" data-selects="province,city,area">
+<select class="province form-control" name="row[type]" data-url="/admin/category/zhichuapi"></select>
+ 
+ 
+</div>
+    </div>
+    <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Typeid')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-typeid" class="form-control" name="row[typeid]" type="number">
+        </div>
+    </div>
+        <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Createtime')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-beizhu" class="form-control" name="row[createtime]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Beizhu')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <input id="c-beizhu" class="form-control" name="row[beizhu]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Pingzhengimages')}:</label>
+        <div class="col-xs-12 col-sm-5">
+            <div class="input-group">
+                <input id="c-pingzhengimages" class="form-control" size="50" name="row[pingzhengimages]" type="text">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-pingzhengimages" class="btn btn-danger plupload" data-input-id="c-pingzhengimages" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="true" data-preview-id="p-pingzhengimages"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-pingzhengimages" class="btn btn-primary fachoose" data-input-id="c-pingzhengimages" data-mimetype="image/*" data-multiple="true"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-pingzhengimages"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-pingzhengimages"></ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Source')}:</label>
+        <div class="col-xs-12 col-sm-5">
+                        
+            <select  id="c-source" data-rule="required" class="form-control selectpicker" name="row[source]">
+                {foreach name="sourceList" item="vo"}
+                    <option value="{$key}" {in name="key" value="0"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+  <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Operator')}:</label>
+        <div class="col-xs-12 col-sm-5">
+              <input id="c-operator" data-rule="required" class="form-control" name="row[operator]" type="text" value="{$admin.username}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-5">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
+
+<script type="text/javascript">
+document.getElementById('c-zhuanrumohu').oninput=function(){
+if(document.getElementById('c-zhuanrumohu').value.length > 0){
+	var name =  document.getElementById('c-zhuanrumohu').value;
+ $.get("/admin/category/banklist?name="+name,function(data,status){
+    
+  jQuery("#zhuanru").empty();  
+  
+  $("#zhuanru").append("<option value='查询成功"+data.data.length+"个符合条件'>查询成功"+data.data.length+"个符合条件</option>");   
+for(var i = 0, len = data.data.length; i < len; i++){
+ $("#zhuanru").append("<option value='"+data.data[i].name+"'>"+data.data[i].name+"</option>");
+}
+});	
+}else{
+ $.get("/admin/category/banklist",function(data,status){
+    
+  jQuery("#zhuanru").empty();  
+  $("#zhuanru").append("<option value='请选择'>请选择</option>");   
+for(var i = 0, len = data.data.length; i < len; i++){
+ $("#zhuanru").append("<option value='"+data.data[i].name+"'>"+data.data[i].name+"</option>");
+}
+});	
+}
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+</script>

@@ -1,0 +1,82 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemtheaccount')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-Redeemtheaccount" data-rule="required" class="form-control" name="row[Redeemtheaccount]" type="text" value="{$row.Redeemtheaccount|htmlentities}" disabled="disabled" />
+        </div>
+    </div>
+    <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemtheaccouid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-Redeemtheaccouid" data-rule="required" class="form-control" name="row[Redeemtheaccouid]" type="number" value="{$row.Redeemtheaccouid|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemintotheaccount')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-Redeemintotheaccount" data-rule="required" class="form-control" name="row[Redeemintotheaccount]" type="text" value="{$row.Redeemintotheaccount|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemintotheaccountid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-Redeemintotheaccountid" data-rule="required" class="form-control" name="row[Redeemintotheaccountid]" type="number" value="{$row.Redeemintotheaccountid|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Amount')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-Amount" data-rule="required" class="form-control" name="row[Amount]" type="number" value="{$row.Amount|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Handlingee')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-Handlingee" data-rule="required" class="form-control" name="row[Handlingee]" type="number" value="{$row.Handlingee|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemtheaccountqmoney')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-Redeemtheaccountqmoney" class="form-control" name="row[Redeemtheaccountqmoney]" type="number" value="{$row.Redeemtheaccountqmoney|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemtheaccounthmoney')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-Redeemtheaccounthmoney" class="form-control" name="row[Redeemtheaccounthmoney]" type="number" value="{$row.Redeemtheaccounthmoney|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemintotheaccountqmoney')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-Redeemintotheaccountqmoney" class="form-control" name="row[Redeemintotheaccountqmoney]" type="number" value="{$row.Redeemintotheaccountqmoney|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Redeemintotheaccounthmoney')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-Redeemintotheaccounthmoney" class="form-control" name="row[Redeemintotheaccounthmoney]" type="number" value="{$row.Redeemintotheaccounthmoney|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Beizhu')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-beizhu" class="form-control" name="row[beizhu]" type="text" value="{$row.beizhu|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group" style="display: none;">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Operator')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-operator" data-rule="required" class="form-control" name="row[operator]" type="text" value="{$row.operator|htmlentities},{$admin.username}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

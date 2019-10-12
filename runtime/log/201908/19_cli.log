@@ -1,0 +1,18 @@
+[ 2019-08-19T19:57:26+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002404s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-08-19T19:57:26+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'exchange' [ RunTime:0.001773s ]
+[ 2019-08-19T19:57:26+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_exchange' [ RunTime:0.001148s ]
+[ 2019-08-19T19:57:26+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_exchange' ORDER BY ORDINAL_POSITION [ RunTime:0.012296s ]
+[ 2019-08-19T19:57:27+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002835s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-08-19T19:57:27+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.013569s ]
+[ 2019-08-19T19:57:27+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'exchange' LIMIT 1 [ RunTime:0.000604s ]
+[ 2019-08-19T19:57:27+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'exchange' , '外汇管理' , 'fa fa-exchange' , '' , 1 , 'normal' , 1566215847 , 1566215847) [ RunTime:0.002674s ]
+[ 2019-08-19T19:57:27+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'exchange/index' LIMIT 1 [ RunTime:0.000336s ]
+[ 2019-08-19T19:57:27+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'exchange/add' LIMIT 1 [ RunTime:0.000360s ]
+[ 2019-08-19T19:57:27+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'exchange/edit' LIMIT 1 [ RunTime:0.000650s ]
+[ 2019-08-19T19:57:27+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'exchange/del' LIMIT 1 [ RunTime:0.000422s ]
+[ 2019-08-19T19:57:27+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'exchange/multi' LIMIT 1 [ RunTime:0.000356s ]
+[ 2019-08-19T19:57:27+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 147 , 'exchange/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1566215847 , 1566215847) [ RunTime:0.013340s ]
+[ 2019-08-19T19:57:27+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 147 , 'exchange/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1566215847 , 1566215847) [ RunTime:0.000513s ]
+[ 2019-08-19T19:57:27+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 147 , 'exchange/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1566215847 , 1566215847) [ RunTime:0.000538s ]
+[ 2019-08-19T19:57:27+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 147 , 'exchange/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1566215847 , 1566215847) [ RunTime:0.000483s ]
+[ 2019-08-19T19:57:27+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 147 , 'exchange/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1566215847 , 1566215847) [ RunTime:0.000610s ]

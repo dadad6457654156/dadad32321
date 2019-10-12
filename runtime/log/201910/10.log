@@ -1,0 +1,8 @@
+---------------------------------------------------------------
+[ 2019-10-10T01:22:08+08:00 ] 127.0.0.1 POST caiwu.com/admin/bankcardmanagement/add?dialog=1
+[运行时间：5.659645s] [吞吐率：0.18req/s] [内存消耗：3,568.39kb] [文件加载：149]
+[ error ] [8]未定义变量: time[G:\WWW\xincaiwu\application\admin\controller\Bankcardmanagement.php:226]
+---------------------------------------------------------------
+[ 2019-10-10T01:45:00+08:00 ] 127.0.0.1 GET caiwu.com/admin/bankcardmanagement/edit/ids/22?dialog=1
+[运行时间：3.250072s] [吞吐率：0.31req/s] [内存消耗：3,593.70kb] [文件加载：148]
+[ error ] [8]未定义变量: bankid[G:\WWW\xincaiwu\application\admin\controller\Bankcardmanagement.php:278]
